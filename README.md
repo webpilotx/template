@@ -1,6 +1,6 @@
 # Vite + React Template
 
-This project is a template for building React applications using Vite. It includes a simple counter example and links to learn more about Vite and React.
+This repository is a **template repository** for building React applications using Vite. It includes a simple counter example and links to learn more about Vite and React.
 
 ## Features
 
@@ -16,6 +16,11 @@ Make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (version 16 or higher)
 - [pnpm](https://pnpm.io/)
+
+### Using This Template
+
+1. Click the "Use this template" button on the repository page.
+2. Create a new repository from this template.
 
 ### Installation
 
