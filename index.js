@@ -1,6 +1,6 @@
 import "dotenv/config";
 import express from "express";
-import app from "./app.js";
+import app from "./api.js";
 
 const PORT = process.env.PORT || 3000;
 app.use(express.static("dist"));

@@ -1,28 +1,14 @@
-# Vite + React Template
+# Template Project
 
-This repository is a **template repository** for building React applications using Vite. It includes a simple counter example and links to learn more about Vite and React.
+This is a template project using Express.js and Vite.
 
 ## Features
 
-- **Vite**: Fast and modern build tool.
-- **React**: A JavaScript library for building user interfaces.
-- **Tailwind CSS**: Utility-first CSS framework for styling.
+- Serves static files from the `dist` directory.
+- Configurable via environment variables.
+- Includes a basic Express.js server.
 
-## Getting Started
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (version 16 or higher)
-- [pnpm](https://pnpm.io/)
-
-### Using This Template
-
-1. Click the "Use this template" button on the repository page.
-2. Create a new repository from this template.
-
-### Installation
+## Setup
 
 1. Clone the repository:
 
@@ -37,37 +23,36 @@ Make sure you have the following installed:
    pnpm install
    ```
 
-### Development
+3. Create a `.env` file in the root directory and configure the following variables:
+   ```
+   PORT=3000
+   ```
 
-Start the development server:
+## Development
+
+To start the development server:
 
 ```bash
 pnpm dev
 ```
 
-Open your browser and navigate to `http://localhost:5173`.
+## Build
 
-### Build
-
-To create a production build:
+To build the project for production:
 
 ```bash
 pnpm build
 ```
 
-### Preview
+## Production
 
-To preview the production build locally:
+To start the production server:
 
 ```bash
-pnpm preview
+pnpm start
 ```
 
-## Learn More
-
-- [Vite Documentation](https://vite.dev)
-- [React Documentation](https://react.dev)
-- [Tailwind CSS Documentation](https://tailwindcss.com)
+Ensure the `dist` directory is built before starting the server.
 
 ## License
 
