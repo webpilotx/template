@@ -1,7 +1,7 @@
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
-import app from "./app.js";
+import api from "./api.js";
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -11,7 +11,7 @@ export default defineConfig({
     (() => ({
       name: "vite-plugin-app",
       configureServer(server) {
-        server.middlewares.use(app);
+        server.middlewares.use(api);
       },
     }))(),
   ],
