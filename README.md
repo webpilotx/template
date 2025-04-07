@@ -46,11 +46,15 @@ pnpm build
 
 ## Production
 
+This project builds the client-side using Vite and serves the static files from the `dist` directory as the frontend. The server is started using `node index.js`, which also handles serving the API.
+
 To start the production server:
 
 ```bash
-pnpm start
+node index.js
 ```
+
+If the `PORT` variable is not specified in the `.env` file, the default port is 3000.
 
 Ensure the `dist` directory is built before starting the server.
 
