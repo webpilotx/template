@@ -13,7 +13,7 @@ This is a template project using Express.js and Vite.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/webpilotx/template
+   git clone <repository-url>
    cd template
    ```
 
